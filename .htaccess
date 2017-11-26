@@ -1,0 +1,4 @@
+Options FollowSymLinks
+RewriteEngine On
+RewriteRule ^([a-zA-Z-_0-9]+)$ $1.php [L]
+RewriteRule ^zadanie/([a-zA-Z-_0-9]+)$ zadanie.php?id=$1 [L]
